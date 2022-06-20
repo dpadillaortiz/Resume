@@ -11,11 +11,22 @@ h1 {
    font-size: 60px;
    margin-bottom: 0px;
 }
+button {
+   background-color: gray;
+   border: none;
+   padding: 15px 32px;
+   text-align: center;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+   transition-duration: 0.4s;
+}
 #contact {
    text-align: center;
    font-size: 20px
 }
-#experience, #education, #projects {
+#experience, #education, #projects, #aboutme {
    background-color: rgb(60, 60, 60);
    border-radius: 10px;
    padding-top: 0.5px;
@@ -23,7 +34,7 @@ h1 {
    padding-left: 15px;
    margin: 10px;
 }
-.exp-item, .edu-item, .proj-item {
+.exp-item, .edu-item, .proj-item, .me-item {
    background-color: rgb(120, 120, 120);
    border-radius: 15px;
    border-style: inset;
